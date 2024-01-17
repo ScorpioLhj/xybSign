@@ -3,7 +3,7 @@ name: 签到 # yml文件名
 on:
   workflow_dispatch:
   schedule:   
-    - cron: '35 14 * * *'
+    - cron: '38 3 * * *'
  
 jobs:
   run-check-in: # 任务名
